@@ -72,12 +72,13 @@ int numero_aleatorio_7() {
 		}
 			if(numero1==2&&numero2==2) {
 
-			return 7;
+			return 6;
 
 		}
 		if(numero1==2&&numero2==3) {
 
-			return 6;
+			
+			return 7;
 
 		}
 
