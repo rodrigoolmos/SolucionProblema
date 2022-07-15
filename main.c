@@ -5,10 +5,10 @@
 #include <stdlib.h>
 
 
-int numero_aleatorio_7();
-int numero=0;
+int generate_1_to7_aleatoryNumber();
+int aleatoryNumber=0;
 
-int valor[8];
+int times_aleatoryNumber[8];
 
 int main (void) {
 	
@@ -25,64 +25,69 @@ int main (void) {
 		
 		
 		
-		numero = numero_aleatorio_7();
+		aleatoryNumber = generate7_aleatoryNumber();
 
 		
-		valor[numero]++;
+		times_aleatoryNumber[aleatoryNumber]++;
 		
 		
 	}
 	
 }
 
-int numero_aleatorio_7() {
+int generate7_aleatoryNumber() {
+	
+	int returnValue = 0;
 
-	for(; ; ){//el bucle se repite hasta que se cumpla alguna condición
 
-		int numero1 = 0;
-		int numero2 = 0;
+	while(!retornValue ){//el bucle se repite hasta que se cumpla alguna condición
 
-		numero1=(int)(rand() % 5 + 1);
-		numero2=(int)(rand() % 5 + 1);
+		int aleatoryNumber1 = 0;
+		int aleatoryNumber2 = 0;
+
+		aleatoryNumber1 = (int)(rand() % 5 + 1);
+		aleatoryNumber2 = (int)(rand() % 5 + 1);
 		  //todas las combinaciones tienen las mismas posibilidades por lo que el numero aleatorio generado tendrá una probabilidad plana
-		if(numero1==1&&numero2==2) {
+		if(aleatoryNumber1 ==1&&numero2==2) {
 
-			return 1;
-
-		}
-		if(numero1==1&&numero2==3) {
-
-			return 2;
+			returnValue = 1;
 
 		}
-		if(numero1==1&&numero2==4) {
+		if(aleatoryNumber1==1 && aleatoryNumber2==3) {
 
-			return 3;
-
-		}
-		if(numero1==1&&numero2==5) {
-
-			return 4;
+			returnValue = 2;
 
 		}
-		if(numero1==2&&numero2==1) {
+		if(aleatoryNumber1 ==1 && aleatoryNumber2==4) {
 
-			return 5;
-
-		}
-			if(numero1==2&&numero2==2) {
-
-			return 6;
+			returnValue = 3;
 
 		}
-		if(numero1==2&&numero2==3) {
+		if(aleatoryNumber1 ==1 && aleatoryNumber2==5) {
+
+			returnValue = 4;
+
+		}
+		if(aleatoryNumber1 ==2 && aleatoryNumber2==1) {
+
+			returnValue = 5;
+
+		}
+		if(aleatoryNumber1 ==2 && aleatoryNumber2==2) {
+
+			returnValue = 6;
+
+		}
+		if(aleatoryNumber1 ==2 && aleatoryNumber2==3) {
 
 			
-			return 7;
+			returnValue = 7;
 
 		}
 
 	}
+
+	return returnValue;
 
 
 }
