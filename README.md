@@ -49,7 +49,7 @@ Este sencillo ejercicio muestra , como apartir de una función que retorna 5 nú
 
 Esta seccion muestra con los programas que esta hecho.
 
-* [![apache][Apache_Feather_Logo.svg]][apache-url]
+* [![apache][support-apache.jpg]][apache-url]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
@@ -214,4 +214,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
 [apache-url]: https://www.apache.org/
-[Apache_Feather_Logo.svg]: https://upload.wikimedia.org/wikipedia/commons/7/7e/Apache_Feather_Logo.svg
+[support-apache.jpg]: https://www.apache.org/img/support-apache.jpg
