@@ -1,46 +1,51 @@
-/*----------------------------------------------------------------------------
- * CMSIS-RTOS 'main' function template
- *---------------------------------------------------------------------------*/
-
-#include <stdlib.h>
-
 
 int generate_1_to7_aleatoryNumber();
-int aleatoryNumber=0;
 
-int times_aleatoryNumber[8];
 
 int main (void) {
 	
 	int i;
-	
+        
+	int aleatoryNumber=0;
+
+        int times_each_1_7_aleatoryNumber[8];
+        
 	for(i=0; i<8; i++){
 	
-		valor[i]=0;
+		times_each_1_7_aleatoryNumber[i]=0;
 	
 	}
 
 	
-	while(1){
+	for(i=0; i<9999999; i++){
 		
 		
 		
-		aleatoryNumber = generate7_aleatoryNumber();
+		aleatoryNumber = generate_1_to7_aleatoryNumber();
 
 		
-		times_aleatoryNumber[aleatoryNumber]++;
+		times_each_1_7_aleatoryNumber[aleatoryNumber]++;
 		
 		
 	}
+        
+ 	for(i=1; i<8; i++){
+	
+		printf("el valor [%i] ->  %i veces , porcentage de dicho valor %.3f%c \n",i,times_each_1_7_aleatoryNumber[i],
+                        100.0*times_each_1_7_aleatoryNumber[i]/9999999,'%');
+	
+	}
+        
+        return 0;
 	
 }
 
-int generate7_aleatoryNumber() {
+int generate_1_to7_aleatoryNumber() {
 	
 	int returnValue = 0;
 
 
-	while(!retornValue ){//el bucle se repite hasta que se cumpla alguna condición
+	while(!returnValue ){//el bucle se repite hasta que se cumpla alguna condición
 
 		int aleatoryNumber1 = 0;
 		int aleatoryNumber2 = 0;
@@ -48,7 +53,7 @@ int generate7_aleatoryNumber() {
 		aleatoryNumber1 = (int)(rand() % 5 + 1);
 		aleatoryNumber2 = (int)(rand() % 5 + 1);
 		  //todas las combinaciones tienen las mismas posibilidades por lo que el numero aleatorio generado tendrá una probabilidad plana
-		if(aleatoryNumber1 ==1&&numero2==2) {
+		if(aleatoryNumber1 ==1&&aleatoryNumber2==2) {
 
 			returnValue = 1;
 
@@ -91,3 +96,4 @@ int generate7_aleatoryNumber() {
 
 
 }
+
