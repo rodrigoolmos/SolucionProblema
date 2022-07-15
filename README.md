@@ -51,14 +51,14 @@ Esta seccion muestra con los programas que esta hecho.
 
 * [![apache][support-apache.jpg]][apache-url]
 * [![C][120px-The_C_Programming_Language_logo.svg.png]][C-url]
-* [![Vue][Vue.js]][Vue-url]
+* [![oracle][245px-Oracle_logo.svg.png]][oracle-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
 * [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">vuelta arriba</a>)</p>
 
 
 
@@ -217,3 +217,5 @@ Use this space to list resources you find helpful and would like to give credit 
 [support-apache.jpg]: https://www.apache.org/img/support-apache.jpg
 [120px-The_C_Programming_Language_logo.svg.png]: https://upload.wikimedia.org/wikipedia/commons/thumb/archive/3/35/20190417225046%21The_C_Programming_Language_logo.svg/120px-The_C_Programming_Language_logo.svg.png
 [C-url]: https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)
+[245px-Oracle_logo.svg.png]: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/245px-Oracle_logo.svg.png
+[oracle-url]:https://support.oracle.com/portal/
