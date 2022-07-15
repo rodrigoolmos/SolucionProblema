@@ -41,7 +41,7 @@
 
 Este sencillo ejercicio muestra , como apartir de una función que retorna 5 números aleatorios construyo otra que genera 7.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">vuelta arriba</a>)</p>
 
 
 
@@ -49,14 +49,8 @@ Este sencillo ejercicio muestra , como apartir de una función que retorna 5 nú
 
 Esta seccion muestra con los programas que esta hecho.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![C][https://www.google.com/search?q=logo+c%2B%2B&tbm=isch&source=iu&ictx=1&vet=1&fir=bjvf9RsxFnq9hM%252CU281vi9s8EK4_M%252C_%253B02Nt_NLckb_8_M%252CujMo7URO_OErcM%252C_%253BRu2LQV3BlhEHfM%252Cw5mPqJunMN7mSM%252C_%253BOE84scjAAA_JMM%252C6ugl5NmERWxS5M%252C_%253ByLLRHejbN-rHnM%252CQuGC1-DzS35quM%252C_%253BrC2_wGZ9VgoimM%252CxMAvGWqK4ehhuM%252C_%253BPrCOF7GDdT51GM%252CCRBvQG4TuXKwMM%252C_%253ByChq5L3LyZDXlM%252C-2-sNFcu45zi6M%252C_%253BKlX0V_OPFeM5bM%252CcuwiM08SCBEW3M%252C_%253BeCSVFXbpm-wBNM%252Cny69jd6o6t8X1M%252C_%253BkTtGwGG1oHAXPM%252CfKesQXpisTIatM%252C_%253BKrpggTEYCcRz5M%252CNDC_mXndTQ6-eM%252C_%253BbLjT5zyJaAbq0M%252CqxM2C7_DjcuuEM%252C_%253BT0lQA9ZASbCBuM%252CxDEUXy25OdHFBM%252C_%253BdP1lznWDtUnQ-M%252C0a7A04jkMYupEM%252C_%253BLt76hnM0sRcXeM%252CEWJ9D4eV4GgKkM%252C_&usg=AI4_-kQGgTpkkcNlO6XYZDAScIlINUmSzg&sa=X&ved=2ahUKEwjjxLyF1fr4AhVa04UKHe4IBZoQ9QF6BAgEEAE#imgrc=bjvf9RsxFnq9hM]][C-url]
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
